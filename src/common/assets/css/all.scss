@@ -1,0 +1,15 @@
+@import "./drawfont.css";
+.mint-navbar{
+  background: #FFFFFF;
+  .mint-tab-item{
+    padding: 0.24rem 0 0.27rem;
+    .mint-tab-item-label{
+      font-size: 0.3rem;
+    }
+    &.is-selected{
+      border-bottom: 2px solid #00C4AC;
+      color: #00C4AC;
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,169 @@
+/*公共样式*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+textarea,
+input {
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing:border-box;
+}
+address,
+cite,
+dfn,
+em,
+var,
+i {
+    font-style: normal;
+}
+body {
+    color: #666666;
+    font-size:0.28rem;
+    font-family: "PingFang SC","Microsoft YaHei", "Source Han Sans CN","黑体","Arial",sans-serif;
+    /* height: auto !important; */
+    /*margin-bottom: 44px;*/
+    line-height: 1;
+    background-color: rgb(245, 242, 240);
+    /*background:rgba(245,247,251,1);*/
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    font-size: 100%;
+    font-weight: normal;
+} */
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+fieldset,
+img {
+    border: 0;
+}
+a,
+img {
+    -webkit-touch-callout: none;
+}
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+input[type="password"],
+input[type="text"],
+textarea {
+    resize: none;
+    outline: 0;
+    -webkit-appearance: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: #fff;
+}
+html {
+    position: relative !important;
+}
+ul,
+ol {
+    list-style: none;
+}
+/* a,
+span {
+    display: inline-block;
+} */
+q::before {
+    content: "";
+}
+q::after {
+    content: "";
+}
+::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 6px!important;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 6px;
+    scrollbar-arrow-color:red;
+
+}
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(144,147,153,0.5);
+    background:  rgba(144,147,153,0.5);
+    scrollbar-arrow-color:red;
+}
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+}
+/*@media screen and (max-width:1367px){ html{ font-size:71.1458px; } } @media screen and (min-width:1367px) and (max-width:1800px){ html{ font-size:82.4479px; } } @media screen and (min-width: 1800px) and (max-width: 1920px) { html{ font-size:100px; } }*/
